@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{53AB0156-D2F0-443B-A0BF-FEF8A2FF9D9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8CCF163D-E9A2-44B0-88BC-768F04C7D2D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EBC91278-AB7A-46A7-B58A-5F2B1822A8D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Audree.Structure.Api", "Src\Application\Audree.Structure.Api\Audree.Structure.Api.csproj", "{8D500AAC-B1A3-412F-B022-E395B92274CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Audree.Structure.Application", "Src\Application\Audree.Structure.Application\Audree.Structure.Application.csproj", "{57845C7F-8895-46CC-8297-32F8DB39A57D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Audree.Structure.Core", "Src\Core\Audree.Structure.Core\Audree.Structure.Core.csproj", "{529B4584-CBB8-40BE-8334-5CCB31488519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BBD11B72-8A83-48AE-A790-E39862C65995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Audree.Structure.Infrastructure", "Src\Infrastructure\Audree.Structure.Infrastructure\Audree.Structure.Infrastructure.csproj", "{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D500AAC-B1A3-412F-B022-E395B92274CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D500AAC-B1A3-412F-B022-E395B92274CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D500AAC-B1A3-412F-B022-E395B92274CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D500AAC-B1A3-412F-B022-E395B92274CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57845C7F-8895-46CC-8297-32F8DB39A57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57845C7F-8895-46CC-8297-32F8DB39A57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57845C7F-8895-46CC-8297-32F8DB39A57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57845C7F-8895-46CC-8297-32F8DB39A57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{529B4584-CBB8-40BE-8334-5CCB31488519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{529B4584-CBB8-40BE-8334-5CCB31488519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{529B4584-CBB8-40BE-8334-5CCB31488519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{529B4584-CBB8-40BE-8334-5CCB31488519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D500AAC-B1A3-412F-B022-E395B92274CE} = {53AB0156-D2F0-443B-A0BF-FEF8A2FF9D9E}
+		{57845C7F-8895-46CC-8297-32F8DB39A57D} = {53AB0156-D2F0-443B-A0BF-FEF8A2FF9D9E}
+		{529B4584-CBB8-40BE-8334-5CCB31488519} = {8CCF163D-E9A2-44B0-88BC-768F04C7D2D1}
+		{FB7BE731-A5B8-4A3D-9EF2-DDF2BD1DE705} = {BBD11B72-8A83-48AE-A790-E39862C65995}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC24E569-8BFE-4264-B188-FBADE8AC9143}
+	EndGlobalSection
+EndGlobal
